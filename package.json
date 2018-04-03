@@ -1,0 +1,32 @@
+{
+  "name": "count-bpm",
+  "description": "count-bpm",
+  "version": "0.0.1",
+  "author": {
+    "name": "Zac Anger",
+    "email": "zac@zacanger.com",
+    "url": "http://zacanger.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "node index",
+    "test": ""
+  },
+  "homepage": "https://github.com/zacanger/count-bpm#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zacanger/count-bpm.git"
+  },
+  "bugs": "https://github.com/zacanger/count-bpm/issues",
+  "keywords": [
+    "",
+    "count-bpm"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
