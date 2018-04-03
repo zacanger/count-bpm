@@ -7,16 +7,12 @@ if (module.parent) {
 
 let start
 let end
-let hadFirstChunk = false
 let text = ''
 
 process.stdin.resume()
 process.stdin.setEncoding('utf8')
 process.stdin.on('data', (chunk) => {
-  if (!hadFirstChunk) {
-    start = Date.now()
-    hadFirstChunk = true
-  }
+  start = start || Date.now()
   text += chunk
   end = Date.now()
 })
