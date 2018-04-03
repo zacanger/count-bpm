@@ -1,6 +1,6 @@
 {
   "name": "count-bpm",
-  "description": "count-bpm",
+  "description": "Tiny CLI for getting an approximate BPM",
   "version": "0.0.1",
   "author": {
     "name": "Zac Anger",
@@ -10,10 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "bin": "./index.js",
-  "scripts": {
-    "start": "node index",
-    "test": ""
-  },
+  "scripts": {},
   "homepage": "https://github.com/zacanger/count-bpm#readme",
   "repository": {
     "type": "git",
@@ -21,8 +18,14 @@
   },
   "bugs": "https://github.com/zacanger/count-bpm/issues",
   "keywords": [
-    "",
-    "count-bpm"
+    "beat",
+    "beats",
+    "bpm",
+    "count",
+    "count-bpm",
+    "time",
+    "timer",
+    "timing"
   ],
   "dependencies": {},
   "devDependencies": {},
