@@ -3,14 +3,16 @@
   "description": "Tiny CLI for getting an approximate BPM",
   "version": "1.1.0",
   "author": {
-    "name": "Zac Anger",
     "email": "zac@zacanger.com",
+    "name": "Zac Anger",
     "url": "http://zacanger.com"
   },
   "license": "MIT",
   "main": "index.js",
   "bin": "./index.js",
-  "scripts": {},
+  "scripts": {
+    "preversion": "sortpack && standard"
+  },
   "homepage": "https://github.com/zacanger/count-bpm#readme",
   "repository": {
     "type": "git",
@@ -28,7 +30,10 @@
     "timing"
   ],
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "sortpack": "1.1.6",
+    "standard": "12.0.1"
+  },
   "engines": {
     "node": ">=8.0.0"
   }
