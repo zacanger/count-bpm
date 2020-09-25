@@ -59,7 +59,7 @@
     "node": ">=8.0.0"
   },
   "lint-staged": {
-    "*.js": [
+    "*.ts": [
       "prettier --write"
     ],
     "package.json": [
