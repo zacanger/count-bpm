@@ -15,6 +15,6 @@ process.stdin.on('data', (chunk) => {
 process.stdin.on('end', () => {
   const beats = text.split('').length
   const time = end - start
-  const bpm = (60000 * beats) / time
+  const bpm = (60_000 * beats) / time
   console.log(bpm.toFixed(2))
 })
