@@ -2,6 +2,8 @@
 
 Tiny CLI for getting an approximate BPM
 
+[Donate](https://ko-fi.com/zacanger)
+
 --------
 
 ## Usage
